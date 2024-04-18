@@ -1,0 +1,107 @@
+/* body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+} */
+
+
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.eXTEdoH2OJ57GqbdwBzQjAHaEo&pid=Api&P=0&h=180'); /* Add your background image URL here */
+  background-size: cover; /* Ensure the background image covers the entire body */
+  background-position: center; /* Center the background image */
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #fff; /* Set background color for the form */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center; /* Center-align form heading and checkboxes */
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 5px; /* Add border radius for input fields */
+  border: 1px solid #ccc; /* Add border to input fields */
+  transition: border-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.form-signin input[type="email"]:focus,
+.form-signin input[type="password"]:focus {
+  border-color: #6c757d; /* Change border color on focus */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Set primary button background color */
+  border-color: #007bff; /* Set primary button border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+  border-color: #0056b3; /* Darker border color on hover */
+}
